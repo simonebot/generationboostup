@@ -1,0 +1,67 @@
+echo "# PaginaWEBOT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/simonebot/PaginaWEBOT.git
+git push -u origin main
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il tuo BOT Telegram per Instagram</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-image: url('5823554931264590749.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7); /* Aggiunto uno sfondo scuro semi-trasparente per leggere il testo */
+            border-radius: 15px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Innovazione e Efficienza alla Portata di Tutti</h1>
+        <p>I nostri BOT sono la soluzione perfetta per chi cerca efficienza senza sacrificare l'engagement. Configurazione facile, gestione intuitiva e un mondo di possibilità per mantenere la tua comunicazione attiva, sempre. Fai spiccare la tua voce nel rumore del web, noi ci occupiamo del resto.</p>
+        <a href="https://t.me/+Ifnl9Ldan-5kNmFk" class="cta-button">Inizia ora!</a>
+    </div>
+</body>
+</html>
