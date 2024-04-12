@@ -1,10 +1,3 @@
-echo "# generationboostup" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/simonebot/generationboostup.git
-git push -u origin main
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -29,35 +22,48 @@ git push -u origin main
         }
         .container {
             max-width: 1200px;
-            width: 90%;
+            width: 100%; /* Modifica da 90% a 100% per utilizzare tutta la larghezza dello schermo */
             margin: 0 auto;
-            background: rgba(0, 0, 0, 0.7);
-            border-radius: 15px;
             padding: 20px;
             box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
         }
         h1 {
-            font-size: 3em;
+            font-size: 2.5em; /* Dimensione leggermente ridotta per una migliore responsività */
             margin-bottom: 20px;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1em; /* Riduci la dimensione del font per i dispositivi mobili */
             line-height: 1.5;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 20px; /* Aggiungi padding per non attaccare il testo ai lati */
         }
         .cta-button {
             display: inline-block;
-            padding: 15px 30px;
+            padding: 10px 20px; /* Riduci il padding per dispositivi più piccoli */
             margin-top: 20px;
             background-color: #007bff;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            font-size: 1em; /* Aggiungi dimensione del font per i bottoni */
         }
         .cta-button:hover {
             background-color: #0056b3;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5em; /* Ulteriore riduzione della dimensione del font per i dispositivi mobili */
+            }
+            p {
+                font-size: 0.8em;
+            }
+            .cta-button {
+                padding: 8px 16px; /* Riduci ulteriormente il padding per i dispositivi più piccoli */
+            }
         }
     </style>
 </head>
@@ -69,4 +75,3 @@ git push -u origin main
     </div>
 </body>
 </html>
-
